@@ -1,0 +1,64 @@
+.taskList__container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  .taskList__form {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .taskList__input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .taskList__addBtn {
+    padding: 8px 12px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  
+    &:hover {
+      background-color: #218838;
+    }
+  }
+  
+  .taskList__list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .taskList__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .taskList__deleteBtn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 4px 8px;
+  
+    &:hover {
+      background-color: #c82333;
+    }
+  }
+  
