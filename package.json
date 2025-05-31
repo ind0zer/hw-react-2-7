@@ -2,6 +2,7 @@
   "name": "hw-js-2-7",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ind0zer.github.io/hw-react-2-7",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
